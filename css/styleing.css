@@ -1,0 +1,64 @@
+.wittgenstein-normal {
+  font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+}
+
+/* NAV styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#fun{
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+#run{
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+nav a button{
+    font-size: 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 16px 20px ;
+}
+.bro img{
+    height: 240px;
+    width: 240px;
+    padding-top: 26px;
+    padding:26px 45% 32px 45%;
+}
+.bro h1,p{
+    text-align: center;
+    padding
+}
+.bro{
+    background-image: url('../assets/Hero-bg.png');
+}
+.bro button{
+    background-color: black;
+    color: white;
+    padding: 21px 24px;
+    border-radius: 10px;
+   
+}
+.bro #contact{
+    padding: 32px 45% 44px;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    margin: 80px;
+}
+.flex div p,h2{
+    text-align: left;
+}
+
