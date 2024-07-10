@@ -1,3 +1,4 @@
+
 .wittgenstein-normal {
   font-family: "Wittgenstein", serif;
   font-optical-sizing: auto;
@@ -13,52 +14,219 @@ nav{
 }
 #fun{
     font-weight: 800;
-    font-size: 30px;
+    font-size: 33px;
     margin-top: 50px;
     margin-left: 150px;
 }
 #run{
     margin-top: 50px;
     margin-right: 150px;
+    font-size: 23px;
+}
+#web-title{
+    font-size: 48px;
 }
 
 nav a button{
-    font-size: 15px;
+    font-size: 28px;
     background-color: white;
     border-radius: 10px;
-    padding: 16px 20px ;
+    padding: 17px 24px ;
 }
 .bro img{
     height: 240px;
-    width: 240px;
-    padding-top: 26px;
-    padding:26px 45% 32px 45%;
+    width: 240.28px;
+    margin: 0 auto;
+    padding:26px 45% 32px ; 
+    
+    
 }
 .bro h1,p{
     text-align: center;
-    padding
 }
 .bro{
     background-image: url('../assets/Hero-bg.png');
+}
+.description-size{
+    font-size: 19px;
 }
 .bro button{
     background-color: black;
     color: white;
     padding: 21px 24px;
     border-radius: 10px;
+    margin-bottom: 10px;
    
+}
+.bt-font-size{
+    font-size: 21px;
 }
 .bro #contact{
     padding: 32px 45% 44px;
 
 }
+.bro #contact button span{
+    font-size: 18.5px;
+}
+/* main design */
+main{
+    margin: 0 auto;
+    padding: 80px 148px 80px 152px;
+    width: 65%;
+}
+#bg-color{
+    background-color:rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+}
 .flex{
     display: flex;
     justify-content: space-between;
-    padding: 80px;
-    margin: 80px;
+    padding: 48px;
+    margin: 97px;
+    height: 240px;
+    width: 850px;
+    border: 0;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.padding{
+    padding-right: 98px;
+}
+.padding1{
+    padding-left: 98px;
+}
+.flex div a button{
+    padding: 11px 18px;
+    background-color: white;
+    border: 1px solid black;
 }
 .flex div p,h2{
     text-align: left;
 }
+.wd-description{
+    font-size: 32px;
+}
+#my-dec{
+    text-align: center;
 
+}
+.desc{
+    text-align: center;
+    font-size: 36px;
+}
+.my-inspiration{
+    padding-bottom: 48px;
+}
+#video{
+    height:650px;
+    width:100%;
+    margin: 48px 0px;
+    border: 1px;
+    justify-content: center;
+    border-radius: 16px;
+}
+#my-target1{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.my-target{
+    height: 230px;
+    width: 450px;
+    padding: 45px;
+    border: 1px;
+    border-radius: 16px;
+}
+.img{
+    height: 56px;
+    width: 56px;
+}
+.target-title56{
+    font-size: 1.7rem;
+}
+.my-t1{
+    background-color: rgba(255, 76, 30, 0.05);
+    margin-right: 40px;
+}
+.my-t2{
+    background-color: rgba(0, 76, 232, 0.05);
+    margin-right: 40px;
+}
+.my-t3{
+    background-color: rgba(255, 223, 0, 0.05);
+    margin-right: 0;
+}
+.n-t-tech{
+    display: flex;
+    padding:40px;
+    border: 0.5px solid grey;
+    border-radius: 16px;
+    margin: 24px 0;
+    
+}
+.learn{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.n-t-tech img{
+    padding-right: 24px;
+    height: 94px;
+    width: 108px;
+}
+.i-need-support{
+    height: 500px;
+    width:94.5%;
+    border: 1px;
+    border-radius: 16px;
+    background-image: url('../assets/handshake.jpg');
+    justify-content: center; 
+    padding: 64px 45px;    
+    
+}
+.support-title{
+    color:white;
+    font-size: 3.5rem;
+    
+}
+.yes{
+    font-size: 1.3rem;
+    color: white;
+}
+#feedback{
+    height:57px;
+    width: 548px;
+    margin:0 auto;
+    font-size: 1.2rem;
+}
+#button{
+    height: 62px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    padding: 17px 20px;
+    font-weight: bold;
+}
+.fb{
+    margin-left: 30%;
+    margin-top: 9%;
+}
+/* footer */
+footer{
+    padding: 30px 150px;
+    background-color: rgba(13, 19, 33, 0.03);
+}
+footer>section{
+    display: flex;
+    justify-content: space-around;
+}
+#footer{
+    display: flex;
+    
+}
+#footer >a>img{
+    /* justify-content: space-between; */
+     padding: 0 30px;
+}
